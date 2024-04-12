@@ -1,0 +1,79 @@
+\section{Research plan and deliverables}
+
+\subsection{Research plan}
+\begin{tabularx}{0.8\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\raggedleft\arraybackslash}X | }
+ \hline
+ Week 1 & Become familiar with Dublin traceroute codebase, further exploration of literature  \\
+ \hline
+ week 2  & Conduct benchmark in ContainerLab of original dublin traceroute   \\
+\hline
+ week 3 & Implement MDA algorithm \\
+ \hline
+ week 4 & Testing and refactoring codebase \\
+ \hline
+ week 5 & Implement Zeph algorithm \\
+ \hline
+  week 6 & Testing and refactoring codebase \\
+  \hline
+  week 7 & Extend for TCP, ICMP and DNS probes \\
+  \hline
+  week 8 & Explore extending to IPv6\\
+  \hline
+  week 9 & Final testing\\
+  \hline
+  weeks 10-12 & Finalize thesis  \\
+  \hline
+\end{tabularx}
+
+\subsection{Risk analysis}
+%SWOT analysis
+\subsubsection{Existing Codebase}
+Unfamiliarity of the dublin traceroute codebase could lead to unexpected errors/delays in the development timeline of the project. This will be mitigated by allocating the first week of the project to read through the existing documentation and codebase. Also potentially reaching out to the origional developer for a meeting to discuss any concerns.
+
+\subsubsection{Virtual testing evironment}
+ContainerLab could potentially have compatibility issues with the existing dublin traceroute tool, which would negatively impact the ability to properly evaulate the inital and final model's performance. Inital benchmarking will be carrierd out early on in the project so as to avoid these issues, with alternative enviroments being an option if required.
+
+\subsubsection{Implementaiton of MDA and Zeph algorithms}
+Implmenation of the MDA and zeph algorithms are likely to take up the bulk of the given time for the project due to their complex nature. To avoid running out of time the implementation of both will be done separately and incrementally. Additionally time has been alloted in the middle of the project to conduct unit testing and refactoring to ensure error free code. 
+
+\subsubsection{Extended requirements}
+The extended deliverables of adding TCP, ICMP and DNS probes and also IPv6 extension have been placed as a lower priority due to them potentially impacting the primary focus of this research to implement MDA and zeph alogrithms with dublin traceroute.
+
+\subsubsection{Final evaluation}
+Continual testing of the implemented model will be carried out from the start of development to avoid prior mentioned compatability issues with the virtual network environment.
+
+\subsection{Ethical considerations}
+%I.e exploring the internet
+%How the implemented tool could be used by malicious actors
+The potential ethical concerns of sending out packets and scanning network topologies without prior owner's concent has been avoided by using a virtual network environment. 
+However, if completed and publicly available, the implemented tool could also be used in a potentially malicious way to aid cyber crime. Further work is needed to determine how best to mitigate this potentially unsolvable issue.
+
+\subsection{Deliverables}
+\begin{enumerate}
+  \item Implementation of MDA/MDA-lite algorithm in dublin traceroute codebase
+  \item Implementation of zeph algorithm in dublin traceroute codebase
+  \item Extension for TCP probe
+  \item Extension for DNS probe
+  \item Extension for ICMP probe
+  \item Extension for IPv6
+  \item Evaluation of perfomance of implemented improved 
+\end{enumerate}
+%MDA algorithm
+
+
+%Zeph algorith
+
+
+%TCP
+
+
+%DNS
+
+
+%ICMP
+
+
+%IPv6
