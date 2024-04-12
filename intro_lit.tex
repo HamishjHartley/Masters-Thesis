@@ -45,7 +45,7 @@ When load balancing in employed there is no single route from a source to a dest
 %Problems with traceroute
 As stated above, the original traceroute is insufficient to correctly recognize individual routes from a group of routes. This is due to how traceroute traverses routes in a network; it discovers hops along a route with a series of probe packets with increasing TTL, with each node in the network sending back an ICMP packet back in response. If these probe packets reach a router using load-balancing there is a possibility of the probe packets being directed along different paths, potentially resulting in missing nodes/links and false links as shown below in fig. \ref{figure:missing_node_fig}.
 
-\begin{figure}[h!!]
+\begin{figure}[!ht]
   \begin{center}
     \includegraphics[scale=0.3]{images/missing_nodes.png}
     \caption{Missing nodes and links, and false links \cite{anomalies}}
@@ -64,7 +64,7 @@ Paris traceroute, a new traceroute designed
 for networks with load balancing routers. Its key innovation is to control the probe packet header fields in a manner that allows all probes towards a destination to follow the same path in the presence of per-flow load balancing. It also allows a user to distinguish between the presence of per-flow load balancing and per-packet load balancing. Unfortunately, due to the random nature of per-packet load balancing, Paris traceroute cannot perfectly enumerate all paths in all situations. But it can do considerably better than the classic traceroute, and it can flag those instances
 where there are doubts. \cite{anomalies}
 
-\begin{figure}[h!!]
+\begin{figure}[!ht]
   \begin{center}
     \includegraphics[scale=0.3]{images/packet_header.png}
     \caption{The roles played by packet header fields \cite{anomalies}}
@@ -90,7 +90,7 @@ MDA-lite is a further improvement on the MDA algorithm by reducing overhead, whi
 then new ones. It applies the MDA’s stopping rule to remain within
 the MDA’s failure probability bounds for vertex detection. \cite{MDA-lite}
 
-\begin{figure}[h!!]
+\begin{figure}[!ht]
   \begin{center}
     \includegraphics[scale=0.3]{images/MDA_lite.png}
     \caption{MDA-Lite versus MDA simulations\cite{MDA-lite}}
@@ -109,7 +109,7 @@ balanced edges have been discovered with high probability.
 The logic guides Yarrp through multiple rounds until the full
 discovery criterion has been satisfied for almost all nodes. \cite{diamond-miner}
 
-\begin{figure}[h!!]
+\begin{figure}[!ht]
   \begin{center}
     \includegraphics[scale=0.3]{images/diamond.png}
     \caption{Diamond miner high-level conceptual overview \cite{diamond-miner}}
@@ -131,7 +131,7 @@ the edge. \cite{diamond-miner}
 %Yarrp
 The high-level idea of Yarrp is: i) randomization of the probing order of the domain of network range(s) and TTLs; and ii) stateless operation, whereby all necessary state is encoded into the probes such that it can be recovered from the ICMP replies.\cite{yarrp}
 
-\begin{figure}[h!!]
+\begin{figure}[!ht]
   \begin{center}
     \includegraphics[scale=0.3]{images/yarrp.png}
     \caption{Yarrp encodes information in the IP and TCP field of outgoing proe packets in order to permit stateless operation \cite{yarrp}}

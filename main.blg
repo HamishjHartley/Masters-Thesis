@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: bibliography.bib
+Warning--empty year in moyospf
+Warning--empty institution in isis
+Warning--empty year in MDA3
+You've used 17 entries,
+            1791 wiz_defined-function locations,
+            536 strings with 6191 characters,
+and the built_in function-call counts, 3805 in all, are:
+= -- 337
+> -- 153
+< -- 5
++ -- 60
+- -- 43
+* -- 172
+:= -- 560
+add.period$ -- 53
+call.type$ -- 17
+change.case$ -- 18
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 205
+empty$ -- 392
+format.name$ -- 43
+if$ -- 907
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 10
+newline$ -- 87
+num.names$ -- 17
+pop$ -- 75
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 146
+stack$ -- 0
+substring$ -- 150
+swap$ -- 82
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 29
+width$ -- 19
+write$ -- 179
+(There were 3 warnings)

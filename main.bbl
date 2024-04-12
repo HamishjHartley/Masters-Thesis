@@ -1,0 +1,87 @@
+\begin{thebibliography}{10}
+
+\bibitem{anomalies}
+Brice Augustin, Xavier Cuvellier, Benjamin Orgogozo, Fabien Viger, Timur Friedman, Matthieu Latapy, Cl\'{e}mence Magnien, and Renata Teixeira.
+\newblock Avoiding traceroute anomalies with paris traceroute.
+\newblock In {\em Proceedings of the 6th ACM SIGCOMM Conference on Internet Measurement}, IMC '06, page 153–158, New York, NY, USA, 2006. Association for Computing Machinery.
+
+\bibitem{jacobson1989traceroute}
+V~Jacobson.
+\newblock Traceroute ftp://ftp. ee. lbl. gov/traceroute. tar. gz, 1989.
+
+\bibitem{exhaustive}
+Brice Augustin, Timur Friedman, and Renata Teixeira.
+\newblock Exhaustive path tracing with paris traceroute.
+\newblock In {\em Proceedings of the 2006 ACM CoNEXT Conference}, CoNEXT '06, New York, NY, USA, 2006. Association for Computing Machinery.
+
+\bibitem{moyospf}
+John Moy.
+\newblock Ospf version 2. rfc2328, april 1998.
+\newblock {\em URL: http://tools. ietf. org/html/rfc2328}.
+
+\bibitem{isis}
+Ross Callon.
+\newblock Use of osi is-is for routing in tcp/ip and dual environments.
+\newblock Technical report, 1990.
+
+\bibitem{cisco}
+Cisco.
+\newblock How does load balancing work?
+\newblock Available at \url{http://www.cisco.com/en/US/tech/tk365/ technologies tech note09186a0080094820.shtml}.
+
+\bibitem{juniper}
+Juniper.
+\newblock Configuring load-balance per-packet action.
+\newblock Available at \url{http://www.juniper.net/techpubs/software/junos/junos70/ swconfig70-policy/html/policy-actions-config11.html.}
+
+\bibitem{tcptraceroute}
+M.~Toren.
+\newblock tcptraceroute.
+\newblock Available at \url{http://michael.toren.net/code/tcptraceroute/}.
+
+\bibitem{MDA2}
+D.~Veitch, B.~Augustin, R.~Teixeira, and T.~Friedman.
+\newblock Failure control in multipath route tracing.
+\newblock In {\em IEEE INFOCOM 2009}, pages 1395--1403, 2009.
+
+\bibitem{MDA-lite}
+Kevin Vermeulen, Stephen~D. Strowes, Olivier Fourmaux, and Timur Friedman.
+\newblock Multilevel mda-lite paris traceroute.
+\newblock In {\em Proceedings of the Internet Measurement Conference 2018}, IMC '18, page 29–42, New York, NY, USA, 2018. Association for Computing Machinery.
+
+\bibitem{diamond-miner}
+Kevin Vermeulen, Justin~P Rohrer, Robert Beverly, Olivier Fourmaux, and Timur Friedman.
+\newblock $\{$Diamond-Miner$\}$: Comprehensive discovery of the internet's topology diamonds.
+\newblock In {\em 17th USENIX Symposium on Networked Systems Design and Implementation (NSDI 20)}, pages 479--493, 2020.
+
+\bibitem{MDA3}
+Julius Niedworok, Johannes Zirngibl, and Patrick Sattler.
+\newblock Modern traceroute variants and adaptations.
+\newblock {\em network}, 4:5.
+
+\bibitem{yarrp}
+Robert Beverly.
+\newblock Yarrp'ing the internet: Randomized high-speed active topology discovery.
+\newblock In {\em Proceedings of the 2016 Internet Measurement Conference}, pages 413--420, 2016.
+
+\bibitem{dublin_website}
+Andrea Barberio.
+\newblock Dublin-traceroute.
+\newblock Available at \url{https://dublin-traceroute.net/}.
+
+\bibitem{dublin}
+Andrea Barbeiro.
+\newblock Visualizing multipath networks with dublin traceroute.
+\newblock {\em Presentation at the MOCA Italian hacker camp}, 2016.
+
+\bibitem{zephMap}
+Matthieu Gouel, Kevin Vermeulen, Maxime Mouchet, Justin~P. Rohrer, Olivier Fourmaux, and Timur Friedman.
+\newblock Zeph \& iris map the internet: A resilient reinforcement learning approach to distributed ip route tracing.
+\newblock {\em SIGCOMM Comput. Commun. Rev.}, 52(1):2–9, mar 2022.
+
+\bibitem{containerlab}
+Containerlab Team.
+\newblock Containerlab.
+\newblock https://containerlab.dev/.
+
+\end{thebibliography}
